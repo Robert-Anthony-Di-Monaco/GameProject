@@ -134,7 +134,7 @@ public class BaseAnimator : MonoBehaviour
         }
     }
 
-    // Instantiates lazer shot 
+    // Instantiates lazer shot --> CHANGE TO BULLETS
     protected IEnumerator shoot()
     {
         isShooting = true;
