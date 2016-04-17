@@ -54,11 +54,10 @@
      <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\WaterTile.cs" />
-     <Compile Include="Assets\Assets\_Animations\Controllers\BaseAnimator.cs" />
-     <Compile Include="Assets\Assets\_Animations\Controllers\MeleeAnimator.cs" />
-     <Compile Include="Assets\Assets\_Animations\Controllers\PlayerAnimator.cs" />
-     <Compile Include="Assets\Assets\_Animations\Controllers\RangeAnimator.cs" />
-     <Compile Include="Assets\Assets\_Animations\Controllers\SiegeAnimator.cs" />
+     <Compile Include="Assets\_Animations\BaseAnimator.cs" />
+     <Compile Include="Assets\_Animations\MeleeAnimator.cs" />
+     <Compile Include="Assets\_Animations\RangeAnimator.cs" />
+     <Compile Include="Assets\_Animations\SiegeAnimator.cs" />
      <Compile Include="Assets\_Scripts\BT Classes\BTConditionNode.cs" />
      <Compile Include="Assets\_Scripts\BT Classes\BTLeafAttribute.cs" />
      <Compile Include="Assets\_Scripts\BT Classes\BTLeafNode.cs" />
@@ -77,7 +76,7 @@
      <None Include="Assets\Assets\Environment Assets\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Assets\Environment Assets\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Assets\Destroyed City\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
-     <None Include="Assets\Assets\_Animations\zModels\MaterialsSiege\lightbeam.shader" />
+     <None Include="Assets\_Animations\zModels\MaterialsSiege\lightbeam.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
