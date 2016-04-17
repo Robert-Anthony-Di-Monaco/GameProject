@@ -46,14 +46,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Assets\Environment Assets\TerrainAssets\Stone and Lava\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\Displace.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\MeshContainer.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\PlanarReflection.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\SpecularLighting.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\Water.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\WaterBase.cs" />
-     <Compile Include="Assets\Assets\Environment Assets\Water\Water\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\Displace.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\Water.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Assets\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\_Animations\BaseAnimator.cs" />
      <Compile Include="Assets\_Animations\MeleeAnimator.cs" />
      <Compile Include="Assets\_Animations\RangeAnimator.cs" />
@@ -69,12 +69,12 @@
      <Compile Include="Assets\_Scripts\BT Classes\BehaviorTree.cs" />
      <None Include="Assets\Assets\Environment Assets\TerrainAssets\Stone and Lava\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
      <None Include="Assets\Assets\Environment Assets\TerrainAssets\Stone and Lava\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
-     <None Include="Assets\Assets\Environment Assets\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Assets\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\README.txt" />
      <None Include="Assets\Assets\Environment Assets\TerrainAssets\Stone and Lava\Lava_Flowing_Shader\ReadMe.txt" />
-     <None Include="Assets\Assets\Environment Assets\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Assets\Environment Assets\Water\Water4\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Assets\Environment Assets\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Assets\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Assets\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Assets\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Assets\Destroyed City\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
      <None Include="Assets\_Animations\zModels\MaterialsSiege\lightbeam.shader" />
  <Reference Include="UnityEngine.UI">
