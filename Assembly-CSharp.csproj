@@ -54,16 +54,17 @@
      <Compile Include="Assets\Assets\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Assets\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\Assets\Water\Water\Scripts\WaterTile.cs" />
-     <Compile Include="Assets\_Animations\BaseAnimator.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTConditionNode.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTLeafAttribute.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTLeafNode.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTNode.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTNodeResult.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTNotNode.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTSelector.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BTSequence.cs" />
-     <Compile Include="Assets\_Scripts\BT Classes\BehaviorTree.cs" />
+     <Compile Include="Assets\_Animation\BaseAnimator.cs" />
+     <Compile Include="Assets\_Scripts\WorldController.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTConditionNode.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTLeafAttribute.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTLeafNode.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTNode.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTNodeResult.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTNotNode.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTSelector.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BTSequence.cs" />
+     <Compile Include="Assets\_Scripts\_BT_Classes\BehaviorTree.cs" />
      <None Include="Assets\Assets\Terrain Assets\Stone and Lava\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
      <None Include="Assets\Assets\Terrain Assets\Stone and Lava\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
      <None Include="Assets\Assets\Water\Water4\Shaders\FXWater4Simple.shader" />
@@ -73,12 +74,17 @@
      <None Include="Assets\Assets\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Assets\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Assets\Destroyed City\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
-     <None Include="Assets\_Animations\zModels\MaterialsSiege\lightbeam.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
