@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Map Objects/_Scene + Terrain/WorldMap.unity
+  isLoaded: 1
+  isActive: 1
