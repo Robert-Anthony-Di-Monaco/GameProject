@@ -55,6 +55,7 @@
      <Compile Include="Assets\Map Objects\Water\Water\Scripts\WaterBase.cs" />
      <Compile Include="Assets\Map Objects\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\_Animation\BaseAnimator.cs" />
+     <Compile Include="Assets\_Scripts\BT_Base.cs" />
      <Compile Include="Assets\_Scripts\WorldController.cs" />
      <Compile Include="Assets\_Scripts\_BT_Classes\BTConditionNode.cs" />
      <Compile Include="Assets\_Scripts\_BT_Classes\BTLeafAttribute.cs" />
@@ -71,6 +72,7 @@
      <None Include="Assets\README.txt" />
      <None Include="Assets\Map Objects\Turrets\FlameThrower\Shaders\AlphaTest_Complete.shader" />
      <None Include="Assets\Map Objects\Terrain Assets\Stone and Lava\Lava_Flowing_Shader\ReadMe.txt" />
+     <None Include="Assets\_Scripts\BT_Tree_Example.xml" />
      <None Include="Assets\Map Objects\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Map Objects\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Map Objects\Water\Water4\Shaders\FXWater4Advanced.shader" />
