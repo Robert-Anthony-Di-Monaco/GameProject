@@ -84,6 +84,8 @@
     <Compile Include="Assets\_Scripts\_BT_Classes\BTSelector.cs" />
     <Compile Include="Assets\_Scripts\_BT_Classes\BTSequence.cs" />
     <Compile Include="Assets\_Scripts\_BT_Classes\BehaviorTree.cs" />
+    <Compile Include="Assets\zzTESTING\TestingCamera.cs" />
+    <Compile Include="Assets\zzTESTING\TestingScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Map Objects\Destroyed City\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
