@@ -9,19 +9,26 @@ public class TestingCamera : MonoBehaviour
 
 	void Start ()
     {
-        TargetAnchor = GameObject.Find("TestPlayer").transform;
+       
 	}
 	
 	void Update ()
     {
-        transform.position = new Vector3(TargetAnchor.position.x, TargetAnchor.position.y + 50f, TargetAnchor.position.z - 55f);
+        transform.position = TargetAnchor.position;
 
-        // Only rotate camera if right-click held down
+        // Only rotate the camera if Mouse-Right-Click is held down
         if (Input.GetMouseButton(1))
         {
             rotX -= Input.GetAxis("Mouse Y") * sensitivity;
             rotY += Input.GetAxis("Mouse X") * sensitivity;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(rotX, rotY, 0), sensitivity);
+        }
+    }
+    void LateUpdate()
+    {
+        if (Physics.Linecast(transform.position, TargetAnchor.parent.position))
+        {
+            transform.position -= new Vector3(0, 10f, 0);
         }
     }
 
@@ -39,3 +46,14 @@ public class TestingCamera : MonoBehaviour
  */
 
     // Rigidbody/Agent use velocity to position camera behind
+
+
+
+
+/*
+    Slowly rotate to go to face so can see it from the another view, 
+    Also to go under stuff
+    Also for turning camera make it slower  ---> JUST ALTER SENETIVITY VAR UP TOP
+     
+     
+     */
