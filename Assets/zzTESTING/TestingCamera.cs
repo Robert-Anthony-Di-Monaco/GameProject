@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TestingCamera : MonoBehaviour
 {
-    public Transform TargetAnchor;
+    public Transform TargetAnchor, AlternateAnchor;
     float rotX = 0, rotY = 0;
     float sincePressedOnce = 0;
     bool pressedOnce = false;
@@ -36,9 +36,27 @@ public class TestingCamera : MonoBehaviour
             transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0);
         }
     }
+
+    void LateUpdate()
+    {
+        int terrainMask = 1 << 9;  // Get bit mask for terrain layer
+
+        if (Physics.Linecast(transform.position, TargetAnchor.transform.parent.position, terrainMask))
+        {
+            transform.position = Vector3.Lerp(transform.position, AlternateAnchor.position, 0.5f);
+        }
+        else
+        {
+            transform.position = Vector3.Lerp(transform.position, TargetAnchor.position, 0.5f);
+        }
+    }
 }
 
-// If all die, go back to last one, check if its null
 /*  
- *  Camera moves to other point quickly see all inbetween  
+ *  Camera moves to other point quickly see all inbetween  --> can look around during journey
+ *  
+ *  How attack based who clicked, formation based on this, rockets one target, guns go after another
+ *  
+ *  Doub le click to go to that view, lights it up see it so can go to it
  */
+ 
