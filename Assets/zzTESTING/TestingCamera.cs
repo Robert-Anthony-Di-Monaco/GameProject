@@ -22,8 +22,10 @@ public class TestingCamera : MonoBehaviour
         }
         else   // Otherwise rotate back to face target
         {
+            float savedRotX = transform.rotation.eulerAngles.x;
             Vector3 targetFwd = (TargetAnchor.parent.position - transform.position).normalized;
             transform.forward = Vector3.Slerp(transform.forward, targetFwd, 0.025f);
+            transform.rotation = Quaternion.Euler(savedRotX, transform.rotation.eulerAngles.y, 0);
         }
         
         // 
