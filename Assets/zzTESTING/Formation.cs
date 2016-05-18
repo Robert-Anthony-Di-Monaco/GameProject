@@ -8,6 +8,20 @@ public class Formation : MonoBehaviour
     // Lists : AssaultInfiltry, ShieldVanguard, ExplosiveInfiltry, ReconAssassin, MobileArtillery, 
     // SuperSoldier, MutatedSoldier -> can lose control rage if too much damage will attack all near
 
+    /*
+            Center anchor is ball --> dont render
+
+            1 shield + 2 guns rockets
+            4 shields or tank?
+            8 guns
+            4 rockets
+            2 artilery --> back up stuff, little robots to attack others, can drop them
+            
+
+            BUTTON to equal up 2 platoons
+            BUTTON for each type to attack, or to send it out only artillery
+     */
+
 	void Start ()
     {
 	    
@@ -15,7 +29,7 @@ public class Formation : MonoBehaviour
 	
 	void Update ()
     {
-	
+	    
 	}
 }
 
