@@ -34,3 +34,6 @@ public class Formation : MonoBehaviour
 }
 
 // kill leader all disperse, stelth is vauable or spy pretend be them or plant bombs on them. detonate wtich to it the stealth climber
+/*
+    start from its local space its position calcualte a free slot, have a list of free spots?     
+*/
