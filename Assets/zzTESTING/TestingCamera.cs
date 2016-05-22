@@ -26,6 +26,7 @@ public class TestingCamera : MonoBehaviour
             Vector3 targetFwd = (TargetAnchor.parent.position - transform.position).normalized;
             transform.forward = Vector3.Slerp(transform.forward, targetFwd, 0.025f);
             transform.rotation = Quaternion.Euler(savedRotX, transform.rotation.eulerAngles.y, 0);
+            rotY = transform.rotation.eulerAngles.y; 
         }
         
         // 
