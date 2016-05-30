@@ -72,7 +72,6 @@
     <Compile Include="Assets\Map Objects\Water\Water\Scripts\Water.cs" />
     <Compile Include="Assets\Map Objects\Water\Water\Scripts\WaterBase.cs" />
     <Compile Include="Assets\Map Objects\Water\Water\Scripts\WaterTile.cs" />
-    <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
